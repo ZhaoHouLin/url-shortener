@@ -1,9 +1,0 @@
-[0mGET / [32m200 [0m6.356 ms - 13[0m
-[0mOPTIONS / [32m200 [0m1.103 ms - 13[0m
-[0mPOST / [32m200 [0m108.313 ms - 0[0m
-Successful
-[0mPOST / [32m200 [0m1.893 ms - 5[0m
-Successful
-[0mOPTIONS / [32m200 [0m0.298 ms - 13[0m
-[0mPOST / [32m200 [0m2.877 ms - 5[0m
-Successful
