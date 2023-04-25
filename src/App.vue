@@ -38,6 +38,10 @@ onMounted(() => {
   CardFront
   CardBack
 
+.author
+  h6 created by 
+    a(href="mailto:rodes5292@gmail.com") 
+      span ZZ
 
 </template>
 
@@ -58,4 +62,15 @@ onMounted(() => {
     flex(,,column)
     backface-visibility hidden
     // overflow hidden
+
+.author
+  position absolute
+  bottom 0
+  right 0
+  margin 1rem
+  color color_primary
+  a
+    color color_primary
+    text-decoration none
+    font-weight 900
 </style>

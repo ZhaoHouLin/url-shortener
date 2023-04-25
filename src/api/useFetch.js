@@ -19,7 +19,8 @@ export const Fetchs = (insertUrl = '', API_URL = '') => {
     counter.storeFetchData(res.data)
   }).catch(error => {
     console.dir(error)    //用dir才看得到
-    errorMsg.value = error.request.statusText
+    // errorMsg.value = error.request.statusText
+    counter.storeFetchData('錯誤')
   })
 
 
